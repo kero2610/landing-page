@@ -4,7 +4,7 @@ body{
     justify-content: space-around;
     align-items: center;
 
-    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #1f2937;
 }
 
@@ -14,8 +14,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-    padding: 0;
-
     color: white;
 }
 
@@ -70,14 +68,17 @@ color: white;
 .header-link, .second-text{
     font-size: 18px;
     color: #e5e7eb;
+    margin-left: auto;
 }
 
 .sign-up-button1{
     border: 1px solid white;
+    border-radius: 8px;
     width: 90px;
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
     padding: 5px;
+    margin: 0;
 }
 
 .image-container1{
@@ -86,6 +87,7 @@ color: white;
 }
 
 .image-container1 img{
+    border: 2px solid #f9faf8;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -132,6 +134,8 @@ color: white;
 }
 
 .image-container2{
+    border: 2px solid #3882f6;
+
     height: 150px;
     width: 150px;
 
@@ -171,6 +175,7 @@ color: white;
     width: 600px;
     align-self: center;
     text-align: right;
+    font-weight: bold;
 }
 
 .container4{
@@ -201,9 +206,10 @@ color: white;
 
 .sign-up-button2{
     border: 1px solid white;
+    border-radius: 8px;
     width: 90px;
     background-color: #3882f6;
-    color: white;
+    color: #f9faf8;
     padding: 5px;
     margin-left: 50px;
 }
