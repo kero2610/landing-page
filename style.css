@@ -91,7 +91,7 @@ color: white;
     height: 300px;
     width: 1100px;
 
-    padding: 30px;
+
 
     justify-content: center;
 
@@ -127,4 +127,31 @@ color: white;
     height: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.container3{
+    height: 300px;
+    width: 1100px;
+
+    background-color: rgb(201, 201, 201);
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote{
+    width: 600px;
+    align-self: center;
+}
+
+.quote-writer{
+    width: 600px;
+    align-self: center;
+    text-align: right;
+}
+
+.container4{
+    
 }
