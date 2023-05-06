@@ -63,11 +63,11 @@ color: white;
 }
 
 .sign-up-button1{
+    border: 1px solid white;
     width: 90px;
     background-color: blue;
     color: white;
     padding: 5px;
-    margin: 5px 0;
 }
 
 .image-container1{
@@ -153,5 +153,35 @@ color: white;
 }
 
 .container4{
-    
+    height: 300px;
+    width: 1100px;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+
+    padding: 30px 70px;
+    background-color: blue;
+}
+
+.text-container4{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-button2{
+    border: 1px solid white;
+    width: 90px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin-left: 50px;
 }
