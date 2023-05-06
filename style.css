@@ -59,6 +59,14 @@ color: white;
     color: #f9faf8;
 }
 
+.sign-up-button1{
+    width: 90px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 5px 0;
+}
+
 .main-image{
     height: 400px;
     display: flex;
