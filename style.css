@@ -1,8 +1,9 @@
 body{
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
 
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: #1f2937;
@@ -53,10 +54,11 @@ color: white;
     display: flex;
 
     height: 300px;
-    width: 80%;
+    width: 100%;
     padding: 50px 0;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content{
@@ -78,13 +80,14 @@ color: white;
 
 
 .sign-up-button1{
-    border: 1px solid white;
+    border: 0.5px solid white;
     border-radius: 8px;
     width: 90px;
+    height: 30px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px;
-    margin: 0;
+    margin-top: 10px;
 }
 
 .image-container1{
@@ -107,16 +110,14 @@ color: white;
     text-align: center;
 
     height: 300px;
-    width: 80%;
-
-
-
-    justify-content: center;
+    width: 100%;
 
     gap: 30px;
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 
     padding: 50px 0;
 }
@@ -134,6 +135,7 @@ color: white;
     display: flex;
     justify-content: center;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 .image-and-description{
@@ -158,7 +160,7 @@ color: white;
 
 .container3{
     height: 300px;
-    width: 80%;
+    width: 100%;
 
     background-color: #e5e7eb;
     color: #1f2937;
@@ -187,7 +189,7 @@ color: white;
 
 .container4{
     height: 300px;
-    width: 80%;
+    width: 100%;
 
     background-color: white;
 
@@ -198,6 +200,8 @@ color: white;
 }
 
 .box{
+
+    border-radius: 10px;
     display: flex;
 
     padding: 30px 70px;
@@ -212,9 +216,10 @@ color: white;
 }
 
 .sign-up-button2{
-    border: 1px solid white;
+    border: 0.5px solid white;
     border-radius: 8px;
     width: 90px;
+    height: 30px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px;
@@ -225,7 +230,7 @@ color: white;
     display: flex;
 
     color: white;
-    width: 1100px;
+    width: 100%;
     height: 50px;
 
     justify-content: center;
